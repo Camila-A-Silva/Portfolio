@@ -24,7 +24,32 @@ html{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-direction: column;
+}
 
+.content-colecao-ss{
+    background-color:#96B3DD;
+}
+
+.content-colecao-ss h2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.apresentacaoo{
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo-colecao h2{
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+.colecao-ss{
+    background-color: #2d6dc7;
 }
 
 .content-colecao-fw{
@@ -32,13 +57,5 @@ html{
 }
 
 .colecao-fw{
-    background-color: #EFCBE1;
-}
-
-.content-colecao-ss{
-    background-color:#96B3DD;
-}
-
-.colecao-ss{
-    background-color: #96B3DD;
+    background-color: #e235a0;
 }
